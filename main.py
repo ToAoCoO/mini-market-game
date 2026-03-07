@@ -62,7 +62,7 @@ def game_loop():
                 print(sell(target, num))
             elif action == "3":
                 current_round["round"] += 1
-                continue
+                break
             else:
                 print("無效指令")
                 continue
